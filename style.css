@@ -1,0 +1,170 @@
+body{
+    background-image: url(İmage/P1030056.JPG);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    background-color: rgb(77, 102, 32);
+    color: #fff;
+    padding: 30px 0;
+    border: 3px dotted black;
+    border-radius: 10px;
+    position: relative;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex-direction: inherit;
+}
+header nav ul li {
+    margin-top: 15px;
+    margin: 0 15px;
+}
+header nav ul li a {
+    background-color: rgb(87, 87, 87);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Playwrite AU SA',sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+header nav ul li a:hover {
+    color: #f4f4f9;
+    text-decoration: underline;
+}
+.Logo{
+    background-color: rgb(77, 102, 32);
+    border-radius: 10px;
+    width: 70px ;
+    height: auto;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+
+    
+}
+.logoarkası{
+    background-color: black;
+    padding: 10px;
+    border-top: 10px;
+    border-right: 10px;
+    border-bottom: 10px;
+    border-left: 10px;
+
+}
+footer{
+    background-color: rgb(77, 102, 32);
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    margin-bottom: 0px;
+    unicode-bidi: isolate;
+    border: 3px dotted black;
+    border-radius: 10px;
+}
+.nav-button:hover {
+    background-color: #00b309; /* Daha koyu mavi */
+    transform: scale(1.05); /* Hafif büyüt */
+}
+
+.nav-button:active {
+    background-color: #003f7f; /* Daha da koyu mavi */
+    transform: scale(0.95); /* Hafif küçült */
+}
+.saat{
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+#saat{
+    position: fixed; /* Sabit bir pozisyon belirler */
+    top: 20px; /* Sayfanın üstünden 10px boşluk */
+    right: 20px; /* Sayfanın sağından 10px boşluk */
+    background-color: #333; /* Kutucuk arka plan rengi */
+    color: #fff; /* Yazı rengi */
+    padding: 10px 15px; /* İçerik boşlukları */
+    border-radius: 8px; /* Yuvarlatılmış köşeler */
+    font-family: Wallpoet, sans-serif; /* Yazı tipi */
+    font-size: 15px; /* Yazı boyutu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Gölge efekti */
+}
+.container {
+  width: 100%;
+  height: 77vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: flex 0.5s ease;
+  position: relative;
+  cursor: pointer;
+}
+
+.section img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section:hover {
+  flex: 2;
+}
+
+.left {
+  background-color: #64f7e3;
+  color: #fff;
+}
+
+.right {
+  background-color: #f87f47;
+  color: #fff;
+}
+
+.section h1 {
+  font-family: 'Playwrite AU SA',sans-serif;
+  position: absolute;
+  font-size: 2.5rem;
+  z-index: 2;
+  text-align: center;
+}
+
+.section .icon {
+  font-size: 9rem;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  opacity: 0.5;
+}
+
+.overlay {
+  font-family: 'Playwrite AU SA',sans-serif;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
